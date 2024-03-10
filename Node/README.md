@@ -1,5 +1,5 @@
 **What is Node.js?**
-Node.js is an open-source JavaScript runtime environment that allows developers to run JavaScript on the server side. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for building scalable network applications.
+- Node.js is an open-source JavaScript runtime environment that allows developers to run JavaScript on the server side. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for building scalable network applications.
 
 **What are the key features of Node.js?**
 
@@ -12,8 +12,7 @@ Node.js is an open-source JavaScript runtime environment that allows developers 
 - Fast and efficient execution.
 
 **How does Node.js handle asynchronous programming?**
-
-**Answer:** Node.js uses callbacks, Promises, and async/await syntax to handle asynchronous programming. It leverages an event loop, which allows it to handle multiple concurrent operations without blocking the execution of other code.
+- Node.js uses callbacks, Promises, and async/await syntax to handle asynchronous programming. It leverages an event loop, which allows it to handle multiple concurrent operations without blocking the execution of other code.
 
 **What is npm?**
 
@@ -44,10 +43,16 @@ Node.js is an open-source JavaScript runtime environment that allows developers 
 **Answer:** You can create a basic HTTP server in Node.js using the built-in **http** module. Here's an example:
 
 ```
-javascript
+const http = require("http");
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/plain");
+  res.end("Hello, World!");
+});
+server.listen(3000, () => {
+  console.log("Server listening on port 3000");
+});
 
-Copy code
-const http = require('http'); const server = http.createServer((req, res) => { res.statusCode = 200; res.setHeader('Content-Type', 'text/plain'); res.end('Hello, World!'); }); server.listen(3000, () => { console.log('Server listening on port 3000'); });
 ```
 
 **What is the difference between Node.js and JavaScript?**
