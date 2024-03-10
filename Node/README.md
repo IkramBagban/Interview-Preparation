@@ -1,6 +1,5 @@
 **What is Node.js?**
-
-**Answer:** Node.js is an open-source JavaScript runtime environment that allows developers to run JavaScript on the server side. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for building scalable network applications.
+Node.js is an open-source JavaScript runtime environment that allows developers to run JavaScript on the server side. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for building scalable network applications.
 
 **What are the key features of Node.js?**
 
