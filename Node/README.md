@@ -2,9 +2,7 @@
 - Node.js is an open-source JavaScript runtime environment that allows developers to run JavaScript on the server side. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for building scalable network applications.
 
 **What are the key features of Node.js?**
-
-**Answer:** Some key features of Node.js include:
-
+Some key features of Node.js include:
 - Asynchronous and event-driven programming model.
 - Single-threaded but highly scalable.
 - Non-blocking I/O operations.
